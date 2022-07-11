@@ -19,7 +19,7 @@ public class ConsoleInputOutput {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         boolean isInt = false;
-        while (isInt == false){
+        while (!isInt){
             try {
                 System.out.println("Type a integer number.");
                 int intNum = input.nextInt();
